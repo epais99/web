@@ -1,0 +1,199 @@
+/*Note:Picture takes up 280px of width,actual page takes remaining 700. 980 altogether. */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body { min-width: 980px; 
+	   text-align: center; 
+	   background-color:#689df2;
+	   font-size: 62.5%;
+	   
+	 }
+
+
+#leftWrapper{
+	width:33%;
+	height:500px;
+	float:left;
+	position:relative;
+	/*margin: 0 auto;*/
+	
+	
+	
+  /* background: red; 
+  background: -webkit-radial-gradient(#007acc, black); 
+  background: -o-radial-gradient(#007acc, black); 
+  background: -moz-radial-gradient(#007acc, black); 
+  background: radial-gradient(#007acc,black); */ 
+
+background-image: url("pictures/finished/ErrolPicture2.png"); 
+  
+  
+	
+}
+#SubScript{
+	position:absolute;
+	text-align:left;
+	bottom: 0px;
+    left : 0px;
+	margin:0px;
+	color:white;
+	/* visibility:hidden; */
+	
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1.6em;
+}	
+.nameLabel{
+	font-size:1.63em;
+	font-weight:bold;
+}
+.offer{
+	color:#0c4cb2;
+	font-size:0.85em;
+	font-style:italic;
+}
+#rightWrapper { 
+		   width: 67%;
+		   height:500px;
+		   float:left;	
+		   /*margin: 0 auto;*/
+		   font-size:1.6em;
+		   position:relative;
+		   
+		   
+		   
+		   background-color:white;		   
+		 }
+
+#leftWrapper, #rightWrapper{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  
+  
+}
+
+.clearfix:after {
+   content: " "; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+   
+}
+
+
+
+/*Top Menu Style*/
+#nav {
+    text-align: justify;
+  
+	background-color: #f2f2f2;
+	position:relative;
+	bottom:14px;
+	
+	
+}
+#nav:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+#nav li {
+    display: inline-block;
+	
+	position:relative;
+	right:19px;
+	top:8px;
+	font-family: 'Titillium Web', sans-serif;
+	
+	
+	
+	
+	
+}
+#nav li a{
+	color: #a6a7a8;
+	text-decoration: none;
+	padding:10px 16px;
+	margin:0px;
+    
+
+}
+#nav li a:hover{
+background-color: white;
+color: #007acc;
+font-weight:bold;
+
+}	
+/*Top Menu Style ends here*/
+
+/*Welcome Section*/
+#welcomeSection{
+	background-color: #f2f2f2;
+	margin:20px 20px;
+	border-left-style: solid;
+	border-width:5px;
+	border-color:#007acc;
+	border-radius: 5px;
+	text-align:left;
+}
+.greetingText{
+	margin-left:40px;
+	
+	font-family: 'Lato', sans-serif;
+	font-style:italic;
+	font-weight:bold;
+	font-size:1.2em;
+}
+.descriptionText{
+	margin-left:40px;
+	margin-bottom:5px;
+	font-family: 'Lato', sans-serif;
+}
+.italic{
+	font-style:italic;
+}
+
+#infoSection{
+	background-color: #f2f2f2;
+	margin:20px 20px;
+	border-left-style: solid;
+	border-width:5px;
+	border-color:#007acc;
+	border-radius: 5px;
+	text-align:left;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	
+}
+
+.property{
+	font-weight:bold;
+	font-family: 'Lato', sans-serif;
+	margin-right:10px;
+}
+.value{
+	font-family: 'Lato', sans-serif;
+	color: #a6a7a8;
+	
+}
+.address{
+	position:relative;
+	left:20px;
+	
+}
+.website{
+	position:absolute;
+	bottom:0px;
+}
+.left{
+	margin-left:40px;
+}
+.center{
+	position:relative;
+	right:30px;
+}
+
+/*Welcome Section ends here*/
